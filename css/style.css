@@ -810,6 +810,11 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.hover\:bg-\[\#1A4032\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(26 64 50 / var(--tw-bg-opacity));
+}
+
 @media (min-width: 768px) {
   .md\:m-0 {
     margin: 0px;
