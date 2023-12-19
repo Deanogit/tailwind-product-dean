@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" class="antialiased">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Frontend Mentor Product preview card component"
+    />
+    <meta name="author" content="Dean Howe" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Frontend Mentor | Product preview card component</title>
+  </head>
+  <body class="flex items-center justify-center min-h-screen bg-fm-cream">
+    <main>
+      <div
+        class="card__container bg-white flex flex-col items-center justify-center my-[28px] mx-4 rounded-[10px] w-[343px] h-[611px] md:flex-row md:w-[600px] md:h-[450px] md:m-0"
+      >
+        <img
+          src="images/image-product-mobile.jpg"
+          alt="glass bottle of perfume presented alongside evergreen leaves lying on a grey background"
+          class="rounded-t-[10px] md:hidden"
+        />
+        <img
+          src="images/image-product-desktop.jpg"
+          alt="glass bottle of perfume presented alongside evergreen leaves lying on a grey background"
+          class="hidden rounded-l-[10px] md:block h-[450px]"
+          width="348"
+          height="450"
+        />
+        <div class="card__description p-6 md:py-8 h-full">
+          <h2
+            class="description__sub text-gray-blue uppercase text-xs tracking-[5px] mb-3 md:mb-5"
+          >
+            Perfume
+          </h2>
+          <h1
+            class="description__heading font-serif text-dark-blue text-[32px] leading-[32px] font-bold mb-3 md:mb-6"
+          >
+            Gabrielle Essence Eau De Parfum
+          </h1>
+          <p
+            class="description__body text-gray-blue text-sm leading-[23px] font-medium mb-[28px] md:px-1 md:mb-[29px]"
+          >
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+          <div
+            class="pricing__container flex items-center gap-[19px] mb-5 md:mb-[29px]"
+          >
+            <h2
+              class="price text-dark-cyan font-serif text-[32px] leading-[32px] font-bold"
+            >
+              $149.99
+            </h2>
+            <p
+              class="price__disc text-gray-blue text-[13px] font-medium line-through"
+            >
+              $169.99
+            </p>
+          </div>
+          <button
+            class="bg-dark-cyan text-white inline-flex items-center gap-[11px] py-4 rounded-lg px-[86px] md:px-[63px] md:py-[15px]"
+          >
+            <img src="images/icon-cart.svg" alt="" height="14" height="16" />
+            <span class="font-bold"> Add to Cart </span>
+          </button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
