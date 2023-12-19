@@ -918,4 +918,29 @@ video {
     padding-top: 15px;
     padding-bottom: 15px;
   }
+
+  .md\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .md\:px-\[59px\] {
+    padding-left: 59px;
+    padding-right: 59px;
+  }
+
+  .md\:px-\[58px\] {
+    padding-left: 58px;
+    padding-right: 58px;
+  }
+
+  .md\:px-\[56px\] {
+    padding-left: 56px;
+    padding-right: 56px;
+  }
+
+  .md\:px-\[57px\] {
+    padding-left: 57px;
+    padding-right: 57px;
+  }
 }
